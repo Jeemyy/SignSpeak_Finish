@@ -33,16 +33,6 @@ function Feedback() {
                 usability etc.
               </p>
             </div>
-            <div className='mt-3'>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSf1yDHIBGR2EusbGSuk-zBWBwoS5i-Gwm7Rvprw6IhBlWfJTQ/viewform?usp=sf_link"
-                className="btn btn-info"
-              >
-                Open Feedback Form
-              </a>
-            </div>
           </div>
         </div>
 
@@ -60,14 +50,6 @@ function Feedback() {
               </p>
             </div>
             <div className='mt-3'>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSehlA48o3Y_k9ntfHRzY5II6iqhlpaP2iALN7h1sTjYn7Nr4w/viewform?usp=sf_link"
-                className="btn btn-info"
-              >
-                Open Feedback Form
-              </a>
             </div>
           </div>
         </div>
@@ -89,16 +71,6 @@ function Feedback() {
                 webapp are correct or not.
               </p>
             </div>
-            <div className='mt-3'>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLScDfQ-6EbKgG-nLdjTI7atlA65EnWoQb3mOo3Bl-JtpNhjJuA/viewform?usp=sf_link"
-                className="btn btn-info"
-              >
-                Open Feedback Form
-              </a>
-            </div>
           </div>
         </div>
 
@@ -116,16 +88,6 @@ function Feedback() {
                 by rating the similarity of our animated signs with real life
                 recorded signs.
               </p>
-            </div>
-            <div className='mt-3'>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLScEHG6UoqUwhoqzE_KNrLXAMOkSb8xKfSJNRCn52gmF9ksRkw/viewform?usp=sf_link"
-                className="btn btn-info"
-              >
-                Open Feedback Form
-              </a>
             </div>
           </div>
         </div>
@@ -145,16 +107,7 @@ function Feedback() {
                 Help us know if our ISL Video creation module is simple and easy enough to use. Let us know if you want any more features to be added in this module.
               </p>
             </div>
-            <div className='mt-3'>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLScScSh9Mli_1XKQLmNBrCGkWve7jbMqMwHhpiNS-qeNNXgKMA/viewform?usp=sf_link"
-                className="btn btn-info"
-              >
-                Open Feedback Form
-              </a>
-            </div>
+            
           </div>
         </div>
       </div>
