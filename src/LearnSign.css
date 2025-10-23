@@ -1,0 +1,174 @@
+/* RESET & GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-fluid {
+  margin-top: 5rem !important;
+  background: linear-gradient(#000, #00101b);
+
+}
+body, html {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.learn-sign-bg {
+  background: linear-gradient(#000, #00101b);
+  color: #fff;
+  padding: 1.5rem 0;
+  min-height: 100vh;
+}
+
+.learn-sign-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.learn-sign-title {
+  color: #00c3ff;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.learn-sign-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+}
+
+.learn-sign-card,
+.learn-sign-section {
+  background-color: rgba(0, 32, 43, 0.85);
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 204, 255, 0.15);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.learn-sign-section-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #00c3ff;
+  margin-bottom: 1rem;
+}
+
+.learn-sign-btn {
+  background-color: #00c3ff;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.learn-sign-btn:hover {
+  background-color: #0099cc;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.learn-sign-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.learn-sign-card-item {
+  background: rgba(0,32,43,0.95);
+  border-radius: 10px;
+  box-shadow: 0 0 12px #00c3ff33;
+  padding: 1rem 1.5rem;
+  min-width: 220px;
+  max-width: 260px;
+  text-align: center;
+}
+
+.learn-sign-card-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.learn-sign-card-item .sign-label {
+  color: #00c3ff;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.learn-sign-card-item .sign-desc {
+  color: #eee;
+  font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .learn-sign-grid {
+    grid-template-columns: 1fr;
+  }
+  .learn-sign-container {
+    max-width: 100%;
+  }
+  .row {
+    padding: 3rem ;
+  }
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 50% !important;
+  }
+  .learn-sign-title {
+    font-size: 1.3rem;
+  }
+  .learn-sign-card-item {
+    min-width: 140px;
+    max-width: 180px;
+    padding: 0.7rem 0.5rem;
+  }
+  .learn-sign-card-item img {
+    width: 50px;
+    height: 50px;
+  }
+  /* تعديل الروبوتات الجانبية */
+  .learn-sign-grid {
+    grid-template-columns: 1fr;
+  }
+  .learn-sign-card,
+  .learn-sign-section {
+    margin-bottom: 1rem;
+  }
+  /* لو فيه عناصر روبوت على الجنبين */
+  .learn-sign-grid > *:first-child,
+  .learn-sign-grid > *:last-child {
+    order: 2;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }}
+
+
+
+  canvas {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+}
